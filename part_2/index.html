@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Styling Demo</title>
+
+    <!-- Internal CSS -->
+    <style>
+        /* Styling three elements with internal CSS */
+        h1 {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            color: #333;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 20px 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    </style>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Using inline CSS -->
+        <h1 style="color: #e74c3c;">Welcome to CSS Demo</h1>
+
+        <p>This is a paragraph styled with internal CSS.</p>
+
+        <p>Here's another paragraph with the same internal CSS styling.</p>
+
+        <!-- These links will be styled by external CSS -->
+        <a href="#" class="link">Click me!</a>
+        <a href="#" class="link">Another link</a>
+    </div>
+</body>
+</html>

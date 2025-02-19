@@ -1,0 +1,23 @@
+/* External CSS */
+body {
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.link {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #3498db;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.link:hover {
+    background-color: #3498db;
+    color: white;
+    transform: scale(1.05);
+}

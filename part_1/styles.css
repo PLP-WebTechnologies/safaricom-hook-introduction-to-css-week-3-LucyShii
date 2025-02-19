@@ -1,0 +1,15 @@
+/* Element Selector */
+h1 {
+    font-size: 36px; /* Changes font size for all <h1> elements */
+  }
+  
+  /* Class Selector */
+  .section {
+    background-color: red; /* Applies a light grey background to elements with class 'section' */
+  }
+  
+  /* ID Selector */
+  #uniqueElement {
+    border: 2px solid #333; /* Adds a border to the element with the ID 'uniqueElement' */
+  }
+  

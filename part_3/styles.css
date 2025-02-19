@@ -1,0 +1,53 @@
+/* General Page Styling */
+body {
+    background-color: #f9f9f9; /* Light background for the page */
+    color: #333; /* Text color */
+    font-family: 'Arial', sans-serif; /* Default font family */
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styling */
+  header h1 {
+    text-align: center; /* Center-align the header */
+    font-size: 2.5rem; /* Large font size */
+    color: #2c3e50; /* Darker color for the header */
+    margin: 20px 0; /* Add spacing around the header */
+  }
+  
+  /* Intro Paragraph */
+  .intro {
+    text-align: justify; /* Justify the paragraph text */
+    font-size: 1rem; /* Standard font size */
+    margin: 20px; /* Spacing around the paragraph */
+    line-height: 1.6; /* Improve readability with line height */
+  }
+  
+  /* Card Component Styling */
+  .card {
+    background-color: #ffffff; /* Light background color for the card */
+    border: 1px solid #ddd; /* Subtle border */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Space inside the card */
+    margin: 20px auto; /* Center the card and add space around it */
+    max-width: 400px; /* Limit the width of the card */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a slight shadow for depth */
+  }
+  
+  /* Card Title */
+  .card-title {
+    font-size: 1.5rem; /* Larger font size for the title */
+    font-weight: bold; /* Make the title bold */
+    color: #34495e; /* Dark color for contrast */
+    margin-bottom: 10px; /* Add space below the title */
+    text-align: center; /* Center the title text */
+  }
+  
+  /* Card Description */
+  .card-description {
+    font-size: 1rem; /* Standard font size for description */
+    color: #555; /* Softer color for text */
+    line-height: 1.5; /* Improve readability */
+    text-align: justify; /* Justify the text */
+  }
+  
